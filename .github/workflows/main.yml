@@ -1,8 +1,8 @@
 name: Run Python Script with Selenium on Windows  
   
 on:  
-  schedule:  
-    - cron: '0 17 * * *'  # 设置为凌晨一点  
+  #schedule:  
+    #- cron: '0 17 * * *'  # 设置为凌晨一点  
   push:  
     branches:  
       - main  
